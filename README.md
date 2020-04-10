@@ -15,3 +15,7 @@ Optional: create an alias for the container:
 ```sh
 alias cfn-flip='docker run --rm -v $PWD:/workdir:ro craighurley/cfn-flip'
 ```
+
+## Links
+
+- <https://github.com/awslabs/aws-cfn-template-flip>
