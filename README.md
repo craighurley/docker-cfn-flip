@@ -7,13 +7,13 @@ Run `cfn-flip` in a container.
 ## Running
 
 ```sh
-docker run --rm -v $PWD:/workdir:ro craighurley/cfn-flip
+docker run --rm -v $PWD:/workdir craighurley/cfn-flip
 ```
 
 Optional: create an alias for the container:
 
 ```sh
-alias cfn-flip='docker run --rm -v $PWD:/workdir:ro craighurley/cfn-flip'
+alias cfn-flip='docker run --rm -v $PWD:/workdir craighurley/cfn-flip'
 ```
 
 ## Links
